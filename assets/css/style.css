@@ -221,7 +221,10 @@ main {
   visibility: hidden;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-  border-bottom: 0.0625rem solid #d9d9d9; }
+  border-bottom: 0.0625rem solid #d9d9d9;
+  margin-bottom: 25px;
+  background-color: #fff;
+}
   .notepad-content .notepad-index-post:first-of-type {
     padding-top: 5rem; }
   .notepad-content .notepad-index-post .datetime {
@@ -273,7 +276,9 @@ main {
     text-align: center; }
     .notepad-content .notepad-index-post .notepad-post-excerpt p {
       margin: 0;
-      font-size: 1.25rem; }
+      font-size: 1.25rem;
+      font-family: 'Lato', Calibri, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #818181;}
   @media only screen and (min-width: 40.063em) {
     .notepad-content .notepad-index-post .notepad-post-excerpt {
       text-align: left; } }
