@@ -276,6 +276,9 @@ header, main, footer {
   border-bottom: 0.0625rem solid #d9d9d9;
   margin-bottom: 25px;
   background-color: #fff;
+  -webkit-box-shadow: 1px 1px 18px 2px rgba(0,0,0,1);
+  -moz-box-shadow: 1px 1px 18px 2px rgba(0,0,0,1);
+  box-shadow: 1px 1px 18px 2px rgba(0,0,0,1);
 }
   .notepad-content .notepad-index-post:first-of-type {
     padding-top: 5rem; }
@@ -342,14 +345,7 @@ header, main, footer {
     .notepad-content .notepad-index-post .notepad-index-post-tags a {
       display: inline-block;
       padding: 0.3125rem 0.9375rem;
-      margin-right: 0.1875rem;
-      color: black;
-      border: 0.0625rem solid black;
-      border-radius: 0.125rem;
-      margin-bottom: 0.3125rem; }
-      .notepad-content .notepad-index-post .notepad-index-post-tags a:hover {
-        color: #e51843;
-        border: 0.0625rem solid #e51843; }
+      margin-right: 0.1875rem; }
   @media only screen and (min-width: 40.063em) {
     .notepad-content .notepad-index-post .notepad-index-post-tags {
       padding-top: 0.3125rem;
@@ -381,6 +377,28 @@ header, main, footer {
       float: left;
       margin-left: 0;
       margin-right: 0.3125rem; } }
+
+.tags {
+  background-color: #ededed;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-right: 3px;
+  padding: 3px 10px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.tags:hover {  
+  background-color: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+}
 
 nav.pagination {
   padding-top: 5.625rem;
